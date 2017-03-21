@@ -1,8 +1,43 @@
 body {
-    margin: auto;
+    margin: 0 auto;
     text-align: center;
+    font-family: Helvetica, Times, sans-serif;
+}
+
+main {
+	background-color: #B2DFDB;
+	margin: 25px 5% 25px 5%;
+	padding: 50px;
 }
 
 h1 {    
-    font-size: 2em;
+    font-size: 4em;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.information {
+	width: 50%;
+	margin: 0 auto;
+	text-align: left;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+figure {
+	padding-right padding-left: 20px;
+	background-color: white;
+
+
+}
+
+img {
+	padding: 1% 1% 0 1%;
+    width: 98%;
+    height: auto;
+    
+    
+
 }
