@@ -32,10 +32,24 @@ ul {
     list-style-position: inside;
 }
 
+li  {
+    font-size:14px;        /* set font size of list item and bullet here */
+    list-style-type:none; /* removes default bullet */      
+    position:relative;      /* positioning context for bullet */
+}
+
+li:before  {
+	content:"\2219";    /* escaped unicode character */
+    font-size:2.5em;    /* the default unicode bullet size is very small */
+    line-height:0;        /* kills huge line height on resized bullet */
+    position:absolute;  /* position bullet relative to list item */
+    top:.23em;           /* vertical align bullet position relative to list item */
+    left:-.5em;            /* position the bullet L- R relative to list item */
+}
+
 figure {
 	padding-right padding-left: 20px;
 	background-color: white;
-
 
 }
 
